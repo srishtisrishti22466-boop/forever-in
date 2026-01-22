@@ -1,0 +1,242 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.f-icon-difer{
+  color: #000;
+  font-size: 20px;
+}
+.f-btn-1 {
+  border: 1px solid rgba(0, 0, 0, 0.516) !important;
+  width: 95px;
+  font-size: 0.66rem !important;
+}
+.f-image-1{
+      width: 20% !important;
+    }
+  
+@media (min-width: 768px) {
+    .f-image-1{
+      width: 20% !important;
+    }
+  }
+ @media (min-width: 992px) {
+    .f-image-1{
+      width: 20% !important;
+    }
+}  
+@media (min-width: 425px) {
+    .f-image-1{
+      width: 20% !important;
+    }
+}
+#mynavbar {
+  margin-left: 20%;
+}
+.outer {
+  border: 1px solid black;
+}
+.f-left-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-para-1 {
+  font: 1rem sans-serif;
+  position: relative;
+  text-align: center; 
+}
+.f-para-1::before {
+  content: "";
+  position: absolute;
+   left: 0%; 
+  top: 60%;
+  width: 12%;
+  height: 0.1rem;
+  background: #000;
+}
+.f-para-2 {
+  font: 1rem sans-serif;
+  position: relative;
+}
+.f-para-2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 12%;
+  height: 0.1rem;
+  background: #000;
+}
+.f-heading-1 {
+  font-size: 4vw;
+  font-family: "prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.f-small-heading1 {
+  position: relative;
+}
+.f-small-heading1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  /* right: 39%; */
+  width: 3%;
+  height: 7%;
+  background: #000;
+}
+@media (max-width: 992px){
+    .f-small-heading1::after {
+      width: 4%;
+      height: 7%;
+    }
+    
+}
+.f-left-for-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+@media (max-width: 1440px){
+  .f-left-for-image{
+    margin-left: auto;
+  }
+}
+.f-btn-2 {
+  border: 1px solid black !important;
+  background-color: white;
+}
+.f-btn-2:hover {
+  background-color: #000;
+  color: white;
+}
+.f-para-3{
+    color: rgba(149, 146, 146, 0.833);
+    font-size: 16px;
+}
+.f-for-center{
+    display: flex;
+    align-items: center ;
+}
+.f-input-center{
+    width: 28em;
+    height: 3em;
+    border: 1px solid rgba(128, 128, 128, 0.612) !important;
+}
+.f-btn-3{
+    color: white;
+    border: none;
+}
+.f-foot{
+    padding-top: 150px;
+    justify-content: space-around;
+}
+.f-para-4{
+    font-size: smaller;
+    color: gray;
+}
+.f-list-text{
+    font-size: smaller;
+    color: gray;
+}
+.f-para-5{
+    font-size: smaller;
+    color: gray;
+}
+.f-para-6{
+    font-size: small;
+    text-align: center;
+}
+.f-small-heading-3{
+  position: relative;
+}
+.f-small-heading-3::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 3%;
+  height: 8%;
+  background: #000;
+}
+.f-joint-box{
+  border: 1px solid rgba(205, 197, 197, 0.667);
+  padding: 60px;
+}
+.small-font{
+  font-size: smaller;
+  padding-left: 50px;
+  padding-right: 90px;
+}
+.f-big-heading-1{
+  position: relative;
+}
+.f-big-heading-1::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 4%;
+  height: 8%;
+  background: #000;
+}
+.f-big-heading-2{
+   position: relative;
+}
+.f-big-heading-2::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 4%;
+  height: 8%;
+  background: #000;
+}
+ .center-img-logo{
+  display: flex;
+  justify-content: center;
+} 
+.inner-logo-box{
+   display: flex; 
+   justify-content: center; 
+}
+.f-form{
+  text-decoration: none;
+  color: black;
+}
+.form-box{
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  padding: 40px 80px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.center-for-form{
+  display: flex;
+  justify-content: center ;
+  margin-top: 200px !important;
+}
+.f-form-para{
+  font-size: smaller;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+ .boxs-card{
+  border: none !important;
+} 
+ .f-small-heading-4::after{
+   content: "";
+  position: absolute;
+  top: 50%;
+  width: 4%;
+  height: 8%;
+  background: #000;
+}
+.f-small-heading-4{
+  position: relative;
+}
+.f-heading-3{
+  font-size: 21px;
+  font-weight: 400;
+  color: #000;
+} 
+.font-change{
+  font-size: smaller;
+  font-weight: 500;
+}
